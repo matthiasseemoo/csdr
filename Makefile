@@ -51,7 +51,7 @@ PARAMS_MISC = -Wno-unused-result
 #DEBUG_ON = 0 #debug is always on by now (anyway it could be compiled with `make DEBUG_ON=1`)
 #PARAMS_DEBUG = $(if $(DEBUG_ON),-g,)
 FFTW_PACKAGE = fftw-3.3.3
-PREFIX ?= /usr
+PREFIX ?= /usr/local
 SOVERSION = 0.15
 PARSEVECT ?= yes
 SONAME = -soname
